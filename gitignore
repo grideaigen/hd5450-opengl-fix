@@ -1,0 +1,46 @@
+# --- Windows system files ---
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.cab
+*.msi
+*.msix
+*.msm
+*.msp
+
+# --- Editor / IDE leftovers ---
+~$*
+*.bak
+*.tmp
+*.swp
+*.swo
+*~
+.vs/
+.vscode/
+.idea/
+
+# --- Build and test artifacts ---
+*.log
+logs/
+test-results/
+*.etl
+
+# --- Driver build debris (NOT the shipped binaries in legacy-driver/) ---
+obj/
+bin/Debug/
+bin/Release/
+*.pdb
+*.ilk
+*.exp
+*.lib
+*.obj
+
+# --- Archives and personal files ---
+*.zip
+*.7z
+*.rar
+notes/
+drafts/
+TODO.private.md
